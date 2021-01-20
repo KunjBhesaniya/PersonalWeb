@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #0C122C;
+}
+.nav_bg{
+    position: absolute;
+}
+.logo{
+    position: absolute;
+    margin: 22px 46px;
+}   
+.nav{
+    position: absolute;
+    display: inline-flex;
+    margin-left: 75%;
+    margin-top: 35px;
+    font-family: "Extendo Sans";
+    font-size: 10px;
+    font-weight: 200;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+.pro{
+    padding-right: 50px;
+}
+.nav li{
+    list-style-type: none;
+}
+.nav li a{
+    transition: all 0.3s ease 0s;
+}
+.nav li a:hover{
+    color: rgb(154, 218, 255);
+}
+.nav_li{
+    font-family: "Extendo Sans";
+    font-size: 11px;
+    text-align: center;
+}
+.nav_li li{
+    list-style: none;
+}
+.home{
+    position: absolute;
+    margin: 170px 0px 0px 45px;
+}
+.home a{
+    transition: all 0.3s ease 0s;
+}
+.home a:hover{
+    color: rgb(154, 218, 255);
+}
+.work{
+    position: absolute;
+    margin: 280px 0px 0px 40px;
+}
+.work a{
+    transition: all 0.3s ease 0s;
+}
+.work a:hover{
+    color: rgb(154, 218, 255);
+}
+.blog{
+    position: absolute;
+    margin: 380px 0px 0px 40px;
+}
+.blog a{
+    transition: all 0.3s ease 0s;
+}
+.blog a:hover{
+    color: rgb(154, 218, 255);
+}
+.hire{
+    position: absolute;
+    margin: 480px 0px 0px 40px;
+}
+.hire a{
+    transition: all 0.3s ease 0s;
+}
+.hire a:hover{
+    color: rgb(154, 218, 255);
+}
+/* .text{
+    margin: 120px 0px 0px 200px;
+} */
+.text{
+    font-family: "Extendo Sans";
+    color: white;
+    margin: 120px 0px 0px 200px;
+    position: absolute;
+    font-size: 30px;
+    font-weight: lighter;
+}
