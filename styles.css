@@ -2,6 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+body{
     background-color: #0C122C;
 }
 .nav_bg{
@@ -46,7 +48,7 @@ li a{
 }
 .home{
     position: absolute;
-    margin: 170px 0px 0px 45px;
+    margin: 200px 0px 0px 45px;
 }
 .home a{
     transition: all 0.3s ease 0s;
@@ -56,7 +58,7 @@ li a{
 }
 .work{
     position: absolute;
-    margin: 280px 0px 0px 40px;
+    margin: 330px 0px 0px 40px;
 }
 .work a{
     transition: all 0.3s ease 0s;
@@ -66,7 +68,7 @@ li a{
 }
 .blog{
     position: absolute;
-    margin: 380px 0px 0px 40px;
+    margin: 460px 0px 0px 40px;
 }
 .blog a{
     transition: all 0.3s ease 0s;
@@ -76,22 +78,109 @@ li a{
 }
 .hire{
     position: absolute;
-    margin: 480px 0px 0px 40px;
+    margin: 590px 0px 0px 40px;
 }
 .hire a{
     transition: all 0.3s ease 0s;
 }
 .hire a:hover{
     color: rgb(154, 218, 255);
-}
-/* .text{
-    margin: 120px 0px 0px 200px;
-} */
+}   
 .text{
     font-family: "Extendo Sans";
     color: white;
-    margin: 120px 0px 0px 200px;
+    margin: 140px 0px 0px 220px;
     position: absolute;
     font-size: 30px;
     font-weight: lighter;
+    text-transform: uppercase;
 }
+.ele{
+    position: absolute;
+    margin-left: 52%;
+    width: 26%;
+    margin-top: 15%;
+}
+.text1{
+    margin-top: 40px;
+    position: absolute;
+    text-transform: uppercase;
+}
+.code{
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 8px;
+}
+.pr1{
+    font-size: 12px;
+    font-weight: 100;
+}
+.text2{
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 37px;
+    text-transform: uppercase;
+}
+.fgd{
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 8px;
+}
+.pr2{
+    font-size: 10px;
+    font-weight: 100;
+}
+.text3{
+    position: absolute;
+    margin-top: 120px;
+    text-transform: uppercase;
+}
+.graphic{
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 8px;
+}
+.pr3{
+    font-size: 10px;
+    font-weight: 100;
+}
+.header1 {
+    text-align: center;
+    padding: 32px;
+}  
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+  
+  .column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
