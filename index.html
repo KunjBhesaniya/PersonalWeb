@@ -1,89 +1,152 @@
-<html>
-<head>
-    <link rel="Stylesheet" href="styles.css">
-    <title>My Web</title>
-</head>
-<body>
-    <header>
-        <section>
-            <div>
-                <img src="Images/Nav BG.png" class="nav_bg">
-                <img src="Images/Logo.png" class="logo">
-                <div class="nav_li">
-                    <ul>
-                        <li class="home"><a href="#">HO<br>ME</a></li>
-                        <li class="work"><a href="#">WO<br>RK</a></li>
-                        <li class="blog"><a href="#">BL<br>OG</a></li>
-                        <li class="hire"><a href="#">HI<br>RE</a></li>
-                    </ul>
-                </div>
-            </div>
-            <nav>
-                <ul class="nav">
-                    <li class="pro"><a href="#">PROJECTS</a></li>
-                    <li><a href="#">DROP ME A LINE</a></li>
-                </ul>
-            </nav>
-        </section>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio website for Kunj Bhesaniya — designer and front-end developer."
+    />
+    <title>Kunj Bhesaniya | Designer & Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background-glow bg-1"></div>
+    <div class="background-glow bg-2"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top">KB.</a>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="button button-small" href="#contact">Let's Talk</a>
     </header>
-    <img class="ele" src="Images/Element 1.png">
-    <div class="text">
-     <!--  <img class="text" src="Images/Text.png"> -->
-        <h1>hi, i am<br>
-            kunj bhesaniya<br>
-            graphic<br>
-            designer</h1>
-        <div class="text1">
-            <h5 class="code">Code</h5>
-            <h6 class="pr1">HTML, CSS, JS</h6>
+
+    <main id="top">
+      <section class="hero section">
+        <p class="eyebrow">Available for freelance projects in 2026</p>
+        <h1>
+          Building polished digital experiences with
+          <span>strategy + visual craft</span>.
+        </h1>
+        <p class="lead">
+          I'm Kunj Bhesaniya — a multidisciplinary designer and front-end developer
+          focused on websites that feel fast, modern, and memorable.
+        </p>
+        <div class="hero-actions">
+          <a class="button" href="#work">View Projects</a>
+          <a class="button button-ghost" href="#contact">Book a Call</a>
         </div>
-        <div class="text2">
-            <h5 class="fgd">Freelacer Graphic Designer</h5>
-            <h6 class="pr2">Logo design, Poster Design,<br>UI & UX , Branding</h6>
+        <ul class="hero-stats" aria-label="Key portfolio highlights">
+          <li><strong>40+</strong><span>Projects Delivered</span></li>
+          <li><strong>4 yrs</strong><span>Design Experience</span></li>
+          <li><strong>12</strong><span>Brand Launches</span></li>
+        </ul>
+      </section>
+
+      <section id="work" class="section">
+        <div class="section-head">
+          <p class="eyebrow">Selected Work</p>
+          <h2>Recent projects</h2>
         </div>
-        <div class="text3">
-            <h5 class="graphic">Graphic</h5>
-            <h6 class="pr3">Photoshop, illustrator, After effect, Premier Pro<br>XD, Figma</h6>
+        <div class="project-grid">
+          <article class="project-card">
+            <p class="project-type">Brand + Web</p>
+            <h3>Nova Studio</h3>
+            <p>
+              Reimagined a creative agency website with bold typography, motion,
+              and conversion-focused pages.
+            </p>
+            <span>UI/UX · Webflow · Identity</span>
+          </article>
+          <article class="project-card">
+            <p class="project-type">E-commerce</p>
+            <h3>Arbor Skincare</h3>
+            <p>
+              Designed a premium storefront with product storytelling and mobile-first
+              checkout flow.
+            </p>
+            <span>Shopify · Product Design</span>
+          </article>
+          <article class="project-card">
+            <p class="project-type">SaaS Product</p>
+            <h3>Pulse Analytics</h3>
+            <p>
+              Built a dashboard concept system with reusable components and a
+              cleaner data hierarchy.
+            </p>
+            <span>Figma · Design System</span>
+          </article>
         </div>
-    </div>
-    <div class="header1">
-        <h1>Work</h1>
-      </div>
-      <div class="row"> 
-        <div class="column">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
+      </section>
+
+      <section id="services" class="section">
+        <div class="section-head">
+          <p class="eyebrow">What I Do</p>
+          <h2>Services for modern brands</h2>
         </div>
-        <div class="column">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-        </div>  
-        <div class="column">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
+        <div class="service-grid">
+          <article>
+            <h3>Website Design</h3>
+            <p>
+              High-converting website design with clear messaging, modern visuals,
+              and smooth responsive behavior.
+            </p>
+          </article>
+          <article>
+            <h3>Brand Identity</h3>
+            <p>
+              Visual systems including logo direction, color strategy, typography,
+              and brand usage rules.
+            </p>
+          </article>
+          <article>
+            <h3>Creative Development</h3>
+            <p>
+              Hand-coded front-end experiences that match the original design intent
+              while remaining fast and accessible.
+            </p>
+          </article>
         </div>
-        <div class="column">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
-          <img src="" style="width:100%">
+      </section>
+
+      <section id="about" class="section about">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>Designer first. Problem solver always.</h2>
         </div>
-      </div>
-</body>
+        <p>
+          Over the last few years I've worked with startups and personal brands,
+          helping them move from “just okay” websites to digital experiences they
+          are proud to share. My process blends research, layout systems, and visual
+          storytelling to give every project a sharp point of view.
+        </p>
+      </section>
+
+      <section id="contact" class="section contact-card">
+        <p class="eyebrow">Let's Build Something Great</p>
+        <h2>Ready for your next redesign?</h2>
+        <p>
+          Tell me about your goals, timeline, and vision. I'll help you shape the
+          right direction.
+        </p>
+        <a class="button" href="mailto:hello@kunjbhesaniya.com">hello@kunjbhesaniya.com</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Kunj Bhesaniya. Crafted with care.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
